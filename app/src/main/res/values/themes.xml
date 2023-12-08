@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Mid2" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#776B5D</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+    </style>
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.Material3.Button.ElevatedButton</item>
+    </style>
+    <style name="Widget.Material3.Button.ElevatedButton">
+        <item name="colorPrimary">#F3EEEA</item>
+        <item name="backgroundTint">#776B5D</item>
+    </style>
+    <style name="Theme.Mid2" parent="Base.Theme.Mid2" />
+</resources>
